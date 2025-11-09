@@ -7,6 +7,9 @@
 ./apps/golang.sh
 ./apps/input-leap.sh # Input Leap is currently not working with Hyperland
 
+# Override default omarchy configurations
+./overrides/hyprland.sh
+
 # Install dotfiles
 ./install-dotfiles.sh
 
